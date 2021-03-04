@@ -1,0 +1,45 @@
+<resources>
+    <string name="appName" translatable="false">ValidTest</string>
+    <!--SPLASH ACTIVITY-->
+    <string name="cdImagenSplash">Imagen de fondo Splash</string>
+    <string name="tituloSplash">Test: Ramiro Garrido M.</string>
+    <!--MAIN_ACTIVITY-->
+    <string name="region">Región de búsqueda</string>
+    <string name="cdRegionMenu">Imagen region del mundo escogida</string>
+    <string name="tituloArtistas">Artistas</string>
+    <string name="tituloTrack">Tracks</string>
+    <!--FRAGMENTS-->
+    <string name="cdNoData">Imagen sin datos</string>
+    <!--RECYCLERVIEW CHILD-->
+    <string name="rank">Ranking #%1$s</string>
+    <string name="oyentes">%1$s oyentes</string>
+    <string name="cdImagenPortada">Imagen del track o el artista</string>
+    <string name="cdPaginaAnterior">Imagen de flecha hacia la izquierda</string>
+    <string name="cdPaginaSiguiente">Imagen de flecha hacia la derecha</string>
+    <string name="paginaAnterior">Anterior</string>
+    <string name="paginaSiguiente">Siguiente</string>
+    <!--CUSTOM DIALOG-->
+    <string name="cdImagenDialog">Imagen del track o artista seleccionado</string>
+    <string name="informacion">Información</string>
+    <string name="rank2">Ranking:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="duracion">Duración:</string>
+    <string name="oyentes2">Oyentes:</string>
+    <string name="mbid">MBID:</string>
+    <string name="url">Página web:</string>
+    <string name="streamable">Streamable:</string>
+    <string name="artistaNombre">Artista:</string>
+    <string name="artistaMbid">Artista mbid:</string>
+    <string name="artistaURL">Página artista:</string>
+    <!--ERRORES-->
+    <string name="sinDatos">Sin datos</string>
+    <string name="errorAPI">Sin conexion al API de servicios.</string>
+    <string name="errorSinDatos">No existen datos. Intenta cambiar el texto o la región de búsqueda y actualizar deslizando hacia abajo.</string>
+    <string name="errorInternet">Sin conexión a internet, ni datos offline que cargar. Intenta actualizar deslizando hacia abajo.</string>
+    <string name="errorInternet2">Usuario sin internet.</string>
+    <string name="errorSinAutorizacion">Sin autorización al API de servicios. Intenta actualizar deslizando hacia abajo.</string>
+    <string name="errorNoEncontrado">Recurso no encontrado. Intenta actualizar deslizando hacia abajo.</string>
+    <string name="errorPaginas">No hay más páginas</string>
+    <string name="errorOffline">No hay más datos de manera offline</string>
+    <string name="errorCustom">Error: %1$s. %2$s</string>
+</resources>

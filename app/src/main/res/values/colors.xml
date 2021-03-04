@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTaxisLibres">#1a1d3c</color>
+    <color name="Red">#FF0000</color>
+    <color name="Green">#00FF00</color>
+    <color name="Blue">#0000FF</color>
+    <color name="LightBlack">#1C1C1C</color>
+    <color name="Black">#000000</color>
+    <color name="White">#ffffff</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="DarkTurquoise">#00ced1</color>
+    <color name="MediumTurquoise">#48d1cc</color>
+    <color name="Turquoise">#40e0d0</color>
+    <color name="SkyBlue">#87ceeb</color>
+    <color name="Golden">#FFD700</color>
+    <color name="DarkGolden">#DAA520</color>
+    <color name="Silver">#C0C0C0</color>
+    <color name="LightCyan">#CCFFFF</color>
+    <color name="Orange">#FFA500</color>
+    <color name="Gray">#BEBEBE</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkerGray">#585858</color>
+    <color name="LightGreenSea">#20B2AA</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="SteelBlue">#4682b4</color>
+    <color name="DarkSlateBlue">#483d8b</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/spinner"
+        app:actionViewClass="android.widget.Spinner"
+        android:contentDescription="@string/cdRegionMenu"
+        android:title="@string/region"
+        android:visible="true"
+        android:iconTint="@color/White"
+        android:actionLayout="@layout/menu_region_spinner"
+        app:showAsAction="always" />
+</menu>

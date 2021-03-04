@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_selector_gradient_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icono_app_1"
+        android:id="@+id/validLogo"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/cdImagenSplash" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:paddingTop="@dimen/marginSplash"
+        android:text="@string/tituloSplash"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/splashText"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        />
+</LinearLayout>

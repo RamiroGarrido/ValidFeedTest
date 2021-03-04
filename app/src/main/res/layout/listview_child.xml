@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/SteelBlue"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textoEstaticoLVC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.45"
+        android:background="@color/SteelBlue"
+        android:fontFamily="serif"
+        android:gravity="start|center_vertical"
+        android:padding="@dimen/paddingDialog0"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="@dimen/letraDialog1" />
+
+    <TextView
+        android:id="@+id/textoObtenidoLVC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.55"
+        android:fontFamily="serif"
+        android:gravity="start|center_vertical"
+        android:padding="@dimen/paddingDialog0"
+        android:textColor="@color/White"
+        android:textColorLink="@color/SkyBlue"
+        android:textSize="@dimen/letraDialog1" />
+</LinearLayout>

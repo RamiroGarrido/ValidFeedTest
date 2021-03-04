@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SPINNER DE REGIONES-->
+    <integer-array name="banderas_regiones">
+        <item>@drawable/argentina</item>
+        <item>@drawable/brazil</item>
+        <item>@drawable/colombia</item>
+        <item>@drawable/ecuador</item>
+        <item>@drawable/peru</item>
+        <item>@drawable/uruguay</item>
+        <item>@drawable/venezuela</item>
+    </integer-array>
+    <!--FRAGMENTS-->
+    <string-array name="tab_names">
+        <item>@string/tituloTrack</item>
+        <item>@string/tituloArtistas</item>
+    </string-array>
+    <integer-array name="tab_pictures">
+        <item>@drawable/track</item>
+        <item>@drawable/artist</item>
+    </integer-array>
+    <!--DIALOG INFORMACION-->
+    <string-array name="track_info">
+        <item>@string/rank2</item>
+        <item>@string/nombre</item>
+        <item>@string/duracion</item>
+        <item>@string/oyentes2</item>
+        <item>@string/mbid</item>
+        <item>@string/url</item>
+        <item>@string/streamable</item>
+        <item>@string/artistaNombre</item>
+        <item>@string/artistaMbid</item>
+        <item>@string/artistaURL</item>
+    </string-array>
+    <string-array name="artist_info">
+        <item>@string/nombre</item>
+        <item>@string/oyentes2</item>
+        <item>@string/mbid</item>
+        <item>@string/url</item>
+        <item>@string/streamable</item>
+    </string-array>
+</resources>

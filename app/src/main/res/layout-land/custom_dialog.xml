@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/widthDialog2"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_selector"
+    android:padding="@dimen/paddingDialog1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagenDialog"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:contentDescription="@string/cdImagenDialog"
+                android:scaleType="centerInside" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:background="@color/SteelBlue"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/SteelBlue"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/paddingDialog0"
+                    android:text="@string/informacion"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/letraDialog3"
+                    android:textStyle="bold" />
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView
+                        android:id="@+id/listViewDialog"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/SteelBlue" />
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

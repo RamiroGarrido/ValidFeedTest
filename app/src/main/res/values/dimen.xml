@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SPLASH ACTIVITY-->
+    <dimen name="splashText">23sp</dimen>
+    <dimen name="marginSplash">20dp</dimen>
+    <!--SPINNER MENU-->
+    <dimen name="tamanioBanderas">20dp</dimen>
+    <dimen name="marginBanderas">5dp</dimen>
+    <!--FRAGMENTS-->
+    <dimen name="letrasSinDatos">20sp</dimen>
+    <dimen name="marginBottomSinDatos">100dp</dimen>
+    <dimen name="marginBottomSinDatos2">60dp</dimen>
+    <!--RECYCLERVIEW CHILD-->
+    <dimen name="contenedorPortrait">120dp</dimen>
+    <dimen name="distancia1">5dp</dimen>
+    <dimen name="letraPortrait1">14sp</dimen>
+    <dimen name="letraPortrait2">13sp</dimen>
+    <dimen name="paddingPaginas">5dp</dimen>
+    <dimen name="flechasPaginas">35dp</dimen>
+    <dimen name="minHeightPaginas">50dp</dimen>
+    <dimen name="viewSeparadorHeight">10dp</dimen>
+    <dimen name="viewSeparadorHeight2">5dp</dimen>
+    <dimen name="letraPaginas">17sp</dimen>
+    <!--CUSTOM DIALOG-->
+    <dimen name="widthDialog1">300dp</dimen>
+    <dimen name="widthDialog2">500dp</dimen>
+    <dimen name="paddingDialog0">5dp</dimen>
+    <dimen name="paddingDialog1">10dp</dimen>
+    <dimen name="paddingDialog2">9dp</dimen>
+    <dimen name="letraDialog1">14sp</dimen>
+    <dimen name="letraDialog2">12sp</dimen>
+    <dimen name="letraDialog3">17sp</dimen>
+    <dimen name="letraDialog4">15sp</dimen>
+
+
+</resources>
